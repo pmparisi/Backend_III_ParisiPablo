@@ -1,5 +1,3 @@
-README.md
-
 # Entrega del Proyecto Final
 ## Pablo Parisi
 
@@ -20,22 +18,19 @@ README.md
 ## Instrucciones
 ### Instalación
 1. Clona el repositorio:
-   git clone [https://tu_repositorio.git](https://github.com/pmparisi/Backend_III_ParisiPablo.git)
-2. Instala las dependencias:
+   git clone https://github.com/pmparisi/Backend_III_ParisiPablo.git
+2. Ingresa a la carpeta:
+   "EntregaFinal_ParisiPablo"
+4. Instala las dependencias:
    npm install
    
-## Scripts
-1. Iniciar en modo producción:
-npm start
-2. Iniciar en modo desarrollo:
-npm run dev
-3. Ejecutar pruebas:
-npm test
+## Ejecución de pruebas:
+Para realizar los test para todos los endpoints del router “adoption.router.js” utiliza npm test
 
 ## Docker
-1. Construir la imagen:
+1. Construcción de la imagen:
    docker build -t pablo0000/entregafinal_parisipablo:latest .
-2. Ejecutar la imagen:
+2. Ejecución de la imagen:
    docker run -p 8081:8080 pablo0000/entregafinal_parisipablo:latest
 3. Subir la imagen a DockerHub:
    docker push pablo0000/entregafinal_parisipablo:latest
@@ -43,7 +38,7 @@ npm test
    docker pull pablo0000/entregafinal_parisipablo:latest
    
 ## Documentación API
-La documentación de la API está disponible en:
+La documentación con “Swagger” de la API está disponible en:
 * http://localhost:8081/api-docs
 
 ## Consideraciones
@@ -51,4 +46,4 @@ Asegúrate de incluir un archivo .env en la raíz del proyecto para configurar l
 
 ## Repositorio
 Link al repositorio de GitHub (sin la carpeta node_modules).
-[https://github.com/pmparisi/Backend_III_ParisiPablo](https://github.com/pmparisi/Backend_III_ParisiPablo)
+[Repositorio de GitHub](https://github.com/pmparisi/Backend_III_ParisiPablo/tree/main/EntregaFinal_ParisiPablo)
